@@ -11,6 +11,8 @@ nav:
     - About us: about-us.md
 plugins:
     - techdocs-core
-    - git-revision-date-localized
+    # This plugin was included by the DevHub Wizard that created the repo but it is
+    # not included in the Docker image used by DevHub's TechDocs plugin
+    # - git-revision-date-localized
 markdown_extensions:
     - md_in_html
