@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+    name: examples-seed
+spec:
+    type: file
+    targets:
+        - ./api-example-1.yaml
+        - ./api-example-2.yaml
+        - ./api-example-3.yaml
+        - ./api-example-4.yaml
+        - ./api-example-5.yaml
+        - ./api-example-6.yaml

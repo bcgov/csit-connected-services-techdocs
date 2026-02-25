@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bc-income-assistance-stats-api
+  description: Aggregated statistics and trends on BC Employment and Assistance caseloads, monthly breakdowns by region/municipality for poverty monitoring and policy analysis.
+  tags:
+    - authoritative-data
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:data-analytics-team
+  system: poverty-reduction-system
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: BC Income Assistance Statistics API
+      version: 1.0.0
+      description: Monthly caseload and demographic data from Ministry of Social Development and Poverty Reduction.
+    paths:
+      /caseload/monthly:
+        get:
+          summary: Retrieve income assistance caseload by month and region
+          responses:
+            '200':
+              description: Aggregated statistics

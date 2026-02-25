@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ltsa-land-title-search-api
+  description: API for searching and retrieving land title records, plans, and ownership information from the Land Title and Survey Authority (LTSA).
+  tags:
+    - secure-data-exchange
+    - aauthoritative-data-register
+    - eligibility-factor-verification
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:land-registry-team
+  system: property-information-system
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: LTSA Land Title Search API
+      version: 1.0.0
+      description: Query land titles by PID or title number.
+    paths:
+      /titles/search:
+        get:
+          summary: Search titles by Parcel Identifier (PID)
+          parameters:
+            - name: pid
+              in: query
+              required: true
+              schema:
+                type: string
+          responses:
+            '200':
+              description: Matching title records
