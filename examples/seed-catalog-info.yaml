@@ -3,7 +3,7 @@ kind: Location
 metadata:
     name: examples-seed
 spec:
-    type: file
+    type: url
     targets:
         - ./api-example-1.yaml
         - ./api-example-2.yaml

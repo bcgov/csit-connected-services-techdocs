@@ -5,7 +5,7 @@ metadata:
   description: API for searching and retrieving land title records, plans, and ownership information from the Land Title and Survey Authority (LTSA).
   tags:
     - secure-data-exchange
-    - aauthoritative-data-register
+    - authoritative-data-register
     - eligibility-factor-verification
 spec:
   type: openapi
