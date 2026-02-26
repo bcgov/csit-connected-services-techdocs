@@ -19,10 +19,10 @@ Use DevHub search or explore the catalogues to discover:
 
 ### You can also browse:
 
-- [View APIs using SDX](/catalog/sdx)
-- [View Authoritative Data sources](/catalog/authoritative)
-- [View available EFVs](/catalog/efv)
-- [Explore the Dataset and API Catalogues](/catalog/datasets-apis)
+- [View APIs using SDX](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=secure-data-exchange)
+- [View Authoritative Data sources](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data-register)
+- [View available EFVs](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
+- [Explore the Dataset and API Catalogues](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data)
 
 ### Availability 
 

@@ -12,11 +12,11 @@ It does this by establishing common building blocks that enable:
 
 - [Access to authoritative data](authoritative-data-register.md)
 
-- [Reusable eligibility checks](/catalog/efv)
+- [Reusable eligibility checks](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
 
 - [Secure, policy-aligned data exchange](secure-data-exchange.md)
 
-- [Centralized discovery of APIs and datasets](/catalog/datasets-apis)
+- [Centralized discovery of APIs and datasets](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data)
 
 As these capabilities become available, teams will be able to use (and reuse) standardized components instead of building one-off integrations. 
 
