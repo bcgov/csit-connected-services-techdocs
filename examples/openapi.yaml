@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: CRA Income Verification API
+  version: 1.0.0
+  description: Provides verified income data (e.g., Line 15000 total income) from CRA notices of assessment.
+
+servers:
+  - url: https://test.api.cra-income-verification.ca/v1
+    description: Test environment (uses test data, simulates real responses)
+  - url: https://dev.api.cra-income-verification.ca/v1
+    description: Development environment (for internal dev/testing)
+  - url: http://localhost:8080/v1
+    description: Mock / local server (e.g., for local development or mocked responses)  
+
+paths:
+  /verify-income:
+    get:
+      summary: Verify borrower or applicant income
+      responses:
+        '200':
+          description: Verified income details
