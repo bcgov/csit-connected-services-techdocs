@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: msp-tombstone-data-api
+  description: API exposing core MSP (Medical Services Plan) tombstone data for enrolled individuals, used in health and social service eligibility checks.
+  tags:
+    - secure-data-exchange
+    - authoritative-data-register
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:health-data-team
+  system: health-eligibility-system
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MSP Tombstone Data API
+      version: 1.0.0
+      description: Access to basic MSP enrollment and demographic data (tombstone records).
+    paths:
+      /person/{phn}/tombstone:
+        get:
+          summary: Retrieve MSP tombstone record by Personal Health Number
+          responses:
+            '200':
+              description: MSP enrollment details

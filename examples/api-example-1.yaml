@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cra-income-verification-api
+  description: Secure API for verifying individual income data from Canada Revenue Agency (CRA) records, used for eligibility and fraud prevention in BC programs.
+  tags:
+    - secure-data-exchange
+    - authoritative-data-register
+    - eligibility-factor-verification
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:platform-team  # ← change to your actual owner
+  system: income-assistance-system  # optional: group related APIs
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CRA Income Verification API
+      version: 1.0.0
+      description: Provides verified income data (e.g., Line 15000 total income) from CRA notices of assessment.
+    paths:
+      /verify-income:
+        get:
+          summary: Verify borrower or applicant income
+          responses:
+            '200':
+              description: Verified income details

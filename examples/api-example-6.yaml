@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bc-poverty-reduction-outcomes-api
+  description: Outcomes and performance metrics for poverty reduction initiatives, including employment supports, housing stability, and WorkBC program results.
+  tags:
+    - authoritative-data
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: group:policy-analytics-team
+  system: poverty-reduction-system
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: BC Poverty Reduction Program Outcomes API
+      version: 1.0.0
+      description: Key indicators from the BC Poverty Reduction Strategy implementation.
+    paths:
+      /outcomes/annual:
+        get:
+          summary: Annual outcomes for poverty reduction programs
+          responses:
+            '200':
+              description: Program performance metrics

@@ -4,13 +4,22 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
 edit_uri: edit/main/docs
 nav:
-    - Introduction: index.md
-    - Getting started: getting-started.md
-    - Configuration: configuration.md
-    - Tips and tricks: tips-and-tricks.md
-    - About us: about-us.md
+    - Getting started: 
+        - Connected Services overview: getting-started.md
+        - Purpose and value: getting-started/purpose-and-value.md
+        - Connected services building blocks: getting-started/building-blocks.md
+        - Authoritative Data Register (ADR): getting-started/authoritative-data-register.md
+        - Eligibility Factor Verification (EFV): getting-started/eligibility-factor-verification.md
+        - Secure Data Exchange (SDX): getting-started/secure-data-exchange.md
+        - Privacy and security: getting-started/privacy-and-security.md
+        - Governance and policy: getting-started/governance-and-policy.md
+        - Roles and responsibilities: getting-started/roles-and-responsibilities.md
+        - Limits and constraints: getting-started/limits-and-constraints.md
+
 plugins:
     - techdocs-core
-    - git-revision-date-localized
+    # This plugin was included by the DevHub Wizard that created the repo but it is
+    # not included in the Docker image used by DevHub's TechDocs plugin
+    # - git-revision-date-localized
 markdown_extensions:
     - md_in_html

@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sdpr-application-api
+  description: API supporting application submission and status tracking for Social Development and Poverty Reduction (SDPR) programs, including income and disability assistance.
+  tags:
+    - secure-data-exchange
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:sdpr-digital-team
+  system: assistance-application-system
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: SDPR Application API
+      version: 1.0.0
+      description: Submit and manage applications for income/disability assistance via My Self Serve integration.
+    paths:
+      /applications/submit:
+        post:
+          summary: Submit new assistance application
+          responses:
+            '201':
+              description: Application created

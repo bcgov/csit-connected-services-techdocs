@@ -12,6 +12,17 @@ metadata:
     bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
     bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
     backstage.io/source-template: template:default/docs-template
+  tags:
+    - connected-services
+    - authoritative-data
+    - authoritative-data-register 
+    - eligibility
+    - eligibility-factor-verification 
+    - secure-data-exchange
+    - privacy
+    - security
+    - governance
+    - policy 
 spec:
   type: documentation
   lifecycle: experimental
