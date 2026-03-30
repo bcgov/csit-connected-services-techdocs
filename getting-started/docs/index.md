@@ -30,6 +30,6 @@ Connected Services capabilities are introduced iteratively. New APIs, datasets, 
 
 ### Learn more 
 
-To understand the broader purpose behind these capabilities, review [Purpose and value](getting-started/purpose-and-value.md). 
+To understand the broader purpose behind these capabilities, review [Purpose and value](purpose-and-value.md). 
 
-To understand how Connected Services components fit together, review [Connected Services building blocks](getting-started/building-blocks.md). 
+To understand how Connected Services components fit together, review [Connected Services building blocks](building-blocks.md). 

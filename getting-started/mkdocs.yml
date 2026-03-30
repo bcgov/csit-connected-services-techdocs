@@ -1,0 +1,24 @@
+site_name: "Getting Started with Connected Services"
+site_description: "Explore Connected Services, its building blocks, and trusted data exchage"
+docs_dir: "docs"
+repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
+edit_uri: edit/main/docs
+nav:
+    - Connected Services overview: index.md
+    - Purpose and value: purpose-and-value.md
+    - Connected services building blocks: building-blocks.md
+    - Authoritative Data Register (ADR): authoritative-data-register.md
+    - Eligibility Factor Verification (EFV): eligibility-factor-verification.md
+    - Secure Data Exchange (SDX): secure-data-exchange.md
+    - Privacy and security: privacy-and-security.md
+    - Governance and policy: governance-and-policy.md
+    - Roles and responsibilities: roles-and-responsibilities.md
+    - Limits and constraints: limits-and-constraints.md
+
+plugins:
+    - techdocs-core
+    # This plugin was included by the DevHub Wizard that created the repo but it is
+    # not included in the Docker image used by DevHub's TechDocs plugin
+    # - git-revision-date-localized
+markdown_extensions:
+    - md_in_html
