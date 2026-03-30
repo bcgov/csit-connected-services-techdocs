@@ -3,26 +3,17 @@
 ## Connected Services overview 
 _Connected Services_ provides reusable building blocks that help government programs securely share and reuse trusted data. 
 
-If you are building or managing a digital service, use the options below to explore available components and documentation. 
+If you are building or managing a digital service, explore available APIs and datasets below, or learn more about Connected Services and its building blocks.
 
 ### Find APIs and datasets 
 
 Use DevHub search or explore the catalogues to discover: 
 
-- APIs that use _Secure Data Exchange_ (SDX) 
+- [APIs that use _Secure Data Exchange_ (SDX)](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=secure-data-exchange)
 
-- _Authoritative Data_ sources 
+- [_Authoritative Data_ sources](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data-register)
 
-- Available _Eligibility Factor Verification_ (EFVs) 
-
-- Related integration documentation 
-
-### You can also browse:
-
-- [View APIs using SDX](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=secure-data-exchange)
-- [View Authoritative Data sources](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data-register)
-- [View available EFVs](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
-- [Explore the Dataset and API Catalogues](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data)
+- [Available _Eligibility Factor Verification_ (EFVs)](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
 
 ### Availability 
 
