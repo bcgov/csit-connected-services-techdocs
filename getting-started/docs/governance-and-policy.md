@@ -25,13 +25,9 @@ Governance decisions, standards, and supporting documentation will be published 
 Governance in Connected Services applies across: 
 
 - _Authoritative Data_ designation and certification 
-
 - Access control and authorization rules 
-
 - Shared standards for interoperability and data exchange 
-
 - Logging, oversight, and accountability mechanisms 
-
 - Policy alignment across participating ministries 
 
 These governance areas ensure that data reuse occurs in a consistent, auditable, and policy-aligned manner. 
@@ -41,11 +37,8 @@ These governance areas ensure that data reuse occurs in a consistent, auditable,
 Governance does not remove data ownership from ministries. 
 
 - Data custodians remain responsible for their data 
-
 - Access decisions are governed by defined policies 
-
 - Oversight bodies review and endorse authoritative designations 
-
 - Technical controls enforce policy decisions consistently 
 
 Clear accountability across technical and program areas is essential to maintaining trust. 

@@ -17,17 +17,13 @@ ADR supports both those who publish authoritative data and those who integrate w
 **Primary audience** 
 
 - Developers building integrations 
-
 - Solution architects designing cross-ministry services 
 
 **Secondary audience** 
 
 - Data custodians 
-
 - Product owners 
-
 - Program and policy leads 
-
 - Data managers 
 
 ### When to use authoritative data 
@@ -35,13 +31,9 @@ ADR supports both those who publish authoritative data and those who integrate w
 Use Authoritative Data when: 
 
 - You need a trusted, government-approved dataset 
-
 - You are building eligibility, verification, or automation logic 
-
 - You are integrating across ministries or systems 
-
 - You want to reduce duplication or avoid shadow datasets 
-
 - You need clarity on definitions, ownership, and accountability 
 
 Do not assume that all datasets are authoritative. Always confirm status before integrating. 
@@ -51,13 +43,9 @@ Do not assume that all datasets are authoritative. Always confirm status before 
 ADR formalizes how datasets are reviewed and certified. 
 
 1. A data custodian submits a dataset for review. 
-
 2. The dataset is assessed against authoritative data criteria. 
-
 3. A governance body reviews and endorses (or declines) certification. 
-
 4. Approved datasets are listed in the Authoritative Data Directory. 
-
 5. Certified datasets are monitored and maintained over time. 
 
 Authoritative certification is not a one-time approval. It requires ongoing oversight. 
@@ -66,9 +54,6 @@ Authoritative certification is not a one-time approval. It requires ongoing over
 <span style="color:red; font-weight:bold">TODO Add Links when available</span>
 
 - Authoritative Data Certification Process 
-
 - Authoritative Data Directory 
-
 - Data Register Standards 
-
 - Glossary and Data Dictionary 

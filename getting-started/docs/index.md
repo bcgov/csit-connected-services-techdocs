@@ -10,9 +10,7 @@ If you are building or managing a digital service, explore available APIs and da
 Use DevHub search or explore the catalogues to discover: 
 
 - [APIs that use _Secure Data Exchange_ (SDX)](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=secure-data-exchange)
-
 - [_Authoritative Data_ sources](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data-register)
-
 - [Available _Eligibility Factor Verification_ (EFVs)](/catalog?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
 
 ### Availability 

@@ -15,23 +15,16 @@ Data providers are responsible for managing and publishing authoritative data.
 Roles may include: 
 
 - Data Custodian 
-
 - Data Manager 
-
 - Data Architect 
-
 - Developer 
-
 - Data Publisher / Editor 
 
 Responsibilities typically include: 
 
 - Maintaining data quality and accuracy 
-
 - Defining appropriate use and access conditions 
-
 - Participating in authoritative data designation (where applicable) 
-
 - Ensuring compliance with governance and policy requirements 
 
 ### Data consumers (Subscribers) 
@@ -41,29 +34,19 @@ Data consumers use authoritative data or reusable components within their applic
 Roles may include: 
 
 - Developer 
-
 - Solution Architect 
-
 - Application Manager 
-
 - Product Owner 
-
 - Policy Lead 
-
 - Data Analyst 
-
 - Data Scientist 
-
 - Program Staff 
 
 Responsibilities typically include: 
 
 - Integrating using approved and governed mechanisms 
-
 - Adhering to defined access policies 
-
 - Using data only for approved purposes 
-
 - Ensuring appropriate handling of sensitive information 
 
 ### Shared Responsibilities 
@@ -73,11 +56,8 @@ Connected Services requires collaboration between providers and consumers.
 Shared responsibilities include: 
 
 - Aligning on definitions and standards 
-
 - Respecting data ownership and accountability 
-
 - Participating in governance processes 
-
 - Supporting audit and transparency requirements 
 
 ### Evolving role clarity 
