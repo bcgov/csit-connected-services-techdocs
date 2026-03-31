@@ -1,3 +1,6 @@
+---
+title: Governance and policy 
+---
 # Getting started with Connected Services
 
 ## Governance and policy 

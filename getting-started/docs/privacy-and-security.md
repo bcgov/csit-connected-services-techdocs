@@ -1,3 +1,6 @@
+---
+title: Privacy and security 
+---
 # Getting started with Connected Services
 
 ## Privacy and security 

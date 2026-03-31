@@ -1,3 +1,6 @@
+---
+title: Purpose and value 
+---
 # Getting started with Connected Services
 
 ## Purpose and value 

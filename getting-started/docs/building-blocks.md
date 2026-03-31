@@ -1,3 +1,6 @@
+---
+title: Connected services building blocks
+---
 # Getting started with Connected Services
 
 ## Connected services building blocks 

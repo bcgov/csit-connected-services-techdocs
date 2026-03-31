@@ -4,16 +4,16 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
 edit_uri: edit/main/docs
 nav:
-    - Connected Services overview: index.md
-    - Purpose and value: purpose-and-value.md
-    - Connected services building blocks: building-blocks.md
-    - Authoritative Data Register (ADR): authoritative-data-register.md
-    - Eligibility Factor Verification (EFV): eligibility-factor-verification.md
-    - Secure Data Exchange (SDX): secure-data-exchange.md
-    - Privacy and security: privacy-and-security.md
-    - Governance and policy: governance-and-policy.md
-    - Roles and responsibilities: roles-and-responsibilities.md
-    - Limits and constraints: limits-and-constraints.md
+    - index.md
+    - purpose-and-value.md
+    - building-blocks.md
+    - authoritative-data-register.md
+    - eligibility-factor-verification.md
+    - secure-data-exchange.md
+    - privacy-and-security.md
+    - governance-and-policy.md
+    - roles-and-responsibilities.md
+    - limits-and-constraints.md
 
 plugins:
     - techdocs-core

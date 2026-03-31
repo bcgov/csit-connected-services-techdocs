@@ -1,3 +1,6 @@
+---
+title: Secure Data Exchange (SDX) 
+---
 # Getting started with Connected Services
 
 ## Secure Data Exchange (SDX) 

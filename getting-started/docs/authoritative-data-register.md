@@ -1,3 +1,6 @@
+---
+title: Authoritative Data Register (ADR) 
+---
 # Getting started with Connected Services
 
 ## Authoritative Data Register (ADR) 

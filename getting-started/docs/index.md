@@ -1,3 +1,6 @@
+---
+title: Connected Services overview 
+---
 # Getting started with Connected Services
 
 ## Connected Services overview 
