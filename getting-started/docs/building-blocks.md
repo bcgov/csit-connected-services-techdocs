@@ -1,3 +1,6 @@
+---
+title: Connected services building blocks
+---
 # Getting started with Connected Services
 
 ## Connected services building blocks 
@@ -6,13 +9,13 @@ _Connected Services_ is made up of reusable building blocks that work together t
 
 Each building block has a specific role. Together, they reduce duplicate integrations, improve data trust, and support more seamless service delivery. 
 
-### Authoritative data register 
+### Authoritative Data Register (ADR)
 
 _Authoritative Data_ is the official source of truth for specific information, such as residency, enrollment, property ownership, or program status. 
 
 It provides trusted, governed data that other programs can rely on. 
 
-[Learn more about Authoritative Data](authoritative-data-register.md). 
+[Learn more about ADR](authoritative-data-register.md). 
 
 ### Eligibility Factor Verification (EFV) 
 
@@ -21,7 +24,6 @@ _Eligibility Factor Verification_ (EFV) checks whether the details an applicant 
 For example: 
 
 - Is this person a BC resident? Yes/no 
-
 - Is this individual enrolled in a specific program? Yes/no 
 
 EFVs reduce manual verification and help standardize eligibility checks across programs. 

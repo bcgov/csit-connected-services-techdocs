@@ -1,3 +1,6 @@
+---
+title: Secure Data Exchange (SDX) 
+---
 # Getting started with Connected Services
 
 ## Secure Data Exchange (SDX) 
@@ -12,7 +15,6 @@ SDX is built around two foundational components:
 
 - **Security Controls**  
 This includes encryption, authentication, and data integrity mechanisms that protect information in transit and verify participating systems. 
-
 - **Governance and Compliance**  
 This includes auditing and logging functionality, policy enforcement, non-repudiation, and timestamping to support oversight and accountability. 
 
@@ -33,9 +35,7 @@ SDX is required when sensitive data (e.g., personal, financial, or health-relate
 Use SDX when: 
 
 - Data exchange requires enhanced security controls due to sensitivity of the data 
-
 - Policy-based access enforcement is needed 
-
 - Auditability and non-repudiation are required 
 
 SDX is not required for public or non-sensitive data that does not require cross-boundary security controls. 
@@ -47,15 +47,10 @@ SDX operates through an onboarding and registration process within the SDX ecosy
 At a high level: 
 
 1. The SDX Operator registers their organization. 
-
 2. An Organization Administrator assigns the necessary System Owner role(s). 
-
 3. The System Owner(s) register(s) services and subsystems and is able to browse the service catalog. 
-
 4. An OpenAPI Specification (OAS) file is submitted for API registration. This spec must be in YAML format.  
-
 5. Once onboarded, an Edge Server is then provisioned. 
-
 6. Secure connections are established between participating systems within the SDX ecosystem. 
 
 All exchanges are authenticated, authorized, and logged automatically. 

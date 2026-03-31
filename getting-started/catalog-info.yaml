@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: connected-services-getting-started-techdocs
+  title: Connected Services Overivew
+  description: The TechDocs for the Connected Services - Getting Started.
+  annotations:
+    github.com/project-slug: bcgov/csit-connected-services-getting-started-techdocs
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/product_description: The TechDocs for Connected Services - Getting Started.
+    bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
+    bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
+    backstage.io/source-template: template:default/docs-template
+  tags:
+    - connected-services
+    - authoritative-data
+    - authoritative-data-register 
+    - eligibility
+    - eligibility-factor-verification 
+    - secure-data-exchange
+    - privacy
+    - security
+    - governance
+    - policy 
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/databc-aps

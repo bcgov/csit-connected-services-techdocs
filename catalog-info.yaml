@@ -1,29 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: connected-services-techdocs
-  title: Connected Services TechDocs
-  description: The TechDocs for the Connected Services.
-  annotations:
-    github.com/project-slug: bcgov/csit-connected-services-techdocs
-    backstage.io/techdocs-ref: dir:.
-    bcgovpubcode.gov.bc.ca/ministry: CITZ
-    bcgovpubcode.gov.bc.ca/product_description: The TechDocs for Connected Services.
-    bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
-    bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
-    backstage.io/source-template: template:default/docs-template
+  name: connected-services-techdocs-location
+  title: Connected Services TechDocs Location
+  description: The Location for Connected Services TechDocs.
   tags:
     - connected-services
-    - authoritative-data
-    - authoritative-data-register 
-    - eligibility
-    - eligibility-factor-verification 
-    - secure-data-exchange
-    - privacy
-    - security
-    - governance
-    - policy 
 spec:
-  type: documentation
-  lifecycle: experimental
-  owner: group:default/databc-aps
+  targets:
+    - ./getting-started/catalog-info.yaml
