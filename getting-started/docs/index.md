@@ -8,6 +8,20 @@ _Connected Services_ provides reusable building blocks that help government prog
 
 If you are building or managing a digital service, explore available APIs and datasets below, or learn more about Connected Services and its building blocks.
 
+!!! "Demo - Anchor Links"
+    Stable anchor link: <authoritative-data-register.md#authoritative-data-when>.
+
+    ```md
+    <a id="authoritative-data-when"></a>
+    ### When to use authoritative data 
+    ```
+
+    Unstable anchor link using heading text only: <authoritative-data-register.md#when-to-use-authoritative-data>.
+
+    ```md
+    ### When to use authoritative data 
+    ```
+
 ### Find APIs and datasets 
 
 Use DevHub search or explore the catalogues to discover: 
