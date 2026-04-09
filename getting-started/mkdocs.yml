@@ -24,3 +24,4 @@ markdown_extensions:
     - md_in_html
     - toc:
         permalink: 🔗
+        depth: 2-3
