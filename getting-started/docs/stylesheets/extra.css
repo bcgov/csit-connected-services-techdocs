@@ -1,6 +1,29 @@
-/* Custom stylesheet — loaded to verify CSS import is working */
-
-h1 {
-    border-bottom: 3px solid #1a73e8;
-    padding-bottom: 0.25em;
-}
+.has-tooltip {
+    position: relative;
+    cursor: help;
+    border-bottom: 1px dotted #999;
+  }
+  
+  .has-tooltip .tooltip-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s;
+  
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+  
+    z-index: 1000;
+  }
+  
+  .has-tooltip:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+  }

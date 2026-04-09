@@ -27,6 +27,18 @@ If you are building or managing a digital service, explore available APIs and da
 
 ### Tooltips
 
+<span class="tooltip">
+  hover me
+  <span class="tooltiptext">This is a richer tooltip</span>
+</span>
+
+<span class="has-tooltip">
+  API Gateway
+  <span class="tooltip-content">
+    Handles routing, auth, rate limiting, etc.
+  </span>
+</span>
+
 [Hover me](https://example.com "I'm a tooltip!")
 
 [Hover me][example]
