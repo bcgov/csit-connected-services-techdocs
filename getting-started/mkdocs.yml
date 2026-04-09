@@ -22,3 +22,5 @@ plugins:
     # - git-revision-date-localized
 markdown_extensions:
     - md_in_html
+    - toc:
+        permalink: 🔗
