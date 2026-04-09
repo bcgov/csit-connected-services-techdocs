@@ -22,8 +22,8 @@ If you are building or managing a digital service, explore available APIs and da
     ### When to use authoritative data 
     ```
 
-!!! example
-    Example content
+??? note "Collapsible note"
+    More details
 
 !!! pied-piper "Pied Piper"
 

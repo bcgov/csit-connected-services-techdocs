@@ -22,7 +22,7 @@ plugins:
     # - git-revision-date-localized
 markdown_extensions:
     - admonition
-    # - pymdownx.details
+    - pymdownx.details
     # - pymdownx.superfences
     - md_in_html
     - toc:
