@@ -29,5 +29,6 @@ markdown_extensions:
     - attr_list
     - pymdownx.snippets
 theme:
+    name: material
     features:
         - content.tooltips
