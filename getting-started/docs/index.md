@@ -25,6 +25,21 @@ If you are building or managing a digital service, explore available APIs and da
 ??? note "Collapsible note"
     More details
 
+### Tooltips
+
+[Hover me](https://example.com "I'm a tooltip!")
+
+[Hover me][example]
+
+  [example]: https://example.com "I'm a tooltip!"
+
+:material-information-outline:{ title="Important information" }
+
+The HTML specification is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+
 ### Find APIs and datasets 
 
 #### Level 4 heading
