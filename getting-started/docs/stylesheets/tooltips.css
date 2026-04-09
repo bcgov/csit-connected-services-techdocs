@@ -1,0 +1,30 @@
+/* Replicate Material tooltip styling without JavaScript */
+abbr[title],
+[title]:not([title=""]) {
+  position: relative;
+  cursor: help;
+}
+
+abbr[title]::after,
+[title]:not([title=""])::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #37474f;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 2px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 100;
+}
+
+abbr[title]:hover::after,
+[title]:not([title=""]):hover::after {
+  opacity: 1;
+}

@@ -27,9 +27,9 @@ If you are building or managing a digital service, explore available APIs and da
 
 ### Tooltips
 
-<span class="tooltip">
+<span class="has-tooltip">
   hover me
-  <span class="tooltiptext">This is a richer tooltip</span>
+  <span class="tooltip-content">This is a richer tooltip</span>
 </span>
 
 <span class="has-tooltip">
