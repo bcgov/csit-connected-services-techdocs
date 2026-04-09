@@ -1,0 +1,6 @@
+/* Custom stylesheet — loaded to verify CSS import is working */
+
+h1 {
+    border-bottom: 3px solid #1a73e8;
+    padding-bottom: 0.25em;
+}

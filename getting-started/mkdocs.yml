@@ -28,6 +28,9 @@ markdown_extensions:
     - abbr
     - attr_list
     - pymdownx.snippets
+extra_css:
+    - stylesheets/extra.css
+
 theme:
     name: material
     features:
