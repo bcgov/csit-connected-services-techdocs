@@ -25,3 +25,5 @@ markdown_extensions:
     - toc:
         permalink: 🔗
         toc_depth: 2-3
+extra_css:
+    - stylesheets/extra.css

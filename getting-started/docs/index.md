@@ -25,6 +25,12 @@ If you are building or managing a digital service, explore available APIs and da
 !!! example
     Example content
 
+!!! pied-piper "Pied Piper"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
+
 ### Find APIs and datasets 
 
 #### Level 4 heading
