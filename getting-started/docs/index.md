@@ -45,7 +45,7 @@ If you are building or managing a digital service, explore available APIs and da
 
   [example]: https://example.com "I'm a tooltip!"
 
-<span title="I'm a tooltip!">Hover me addon</span>
+Another one: <span title="I'm a tooltip!">Hover me addon</span>
 
 :material-information-outline:{ title="Important information" }
 
