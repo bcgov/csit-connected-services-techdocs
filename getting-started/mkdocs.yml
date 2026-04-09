@@ -21,6 +21,9 @@ plugins:
     # not included in the Docker image used by DevHub's TechDocs plugin
     # - git-revision-date-localized
 markdown_extensions:
+    - admonition
+    # - pymdownx.details
+    # - pymdownx.superfences
     - md_in_html
     - toc:
         permalink: 🔗
