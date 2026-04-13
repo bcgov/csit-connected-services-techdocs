@@ -4,6 +4,13 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
 edit_uri: edit/main/docs
 nav:
+    - How To Guides:
+        - Getting Started:
+            - The Basics:
+                - Day One:
+                    - building-blocks.md
+                - Day Two:
+                - Day Three:
     - index.md
     - purpose-and-value.md
     - building-blocks.md
