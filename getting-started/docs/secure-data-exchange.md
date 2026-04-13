@@ -48,7 +48,7 @@ At a high level:
 
 1. The SDX Operator registers their organization. 
 2. An Organization Administrator assigns the necessary System Owner role(s). 
-3. The System Owner(s) register(s) services and subsystems and is able to browse the service catalog. 
+3. The System Owner(s) register(s) services and subsystems and is able to browse the service catalogue. 
 4. An OpenAPI Specification (OAS) file is submitted for API registration. This spec must be in YAML format.  
 5. Once onboarded, an Edge Server is then provisioned. 
 6. Secure connections are established between participating systems within the SDX ecosystem. 

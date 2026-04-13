@@ -44,4 +44,4 @@ The Catalogue provides a centralized place to discover datasets, APIs, and relat
 
 It supports consistent definitions, improved discoverability, and reuse across ministries. 
 
-[Explore the Catalogue](/catalog). 
+[Explore the Catalogue](/catalogue). 
