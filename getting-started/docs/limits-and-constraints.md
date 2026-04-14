@@ -1,5 +1,6 @@
 ---
 title: Limits and constraints
+tags: [octopus, dinosaur]
 ---
 # Getting started with Connected Services
 

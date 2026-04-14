@@ -23,6 +23,7 @@ metadata:
     - security
     - governance
     - policy 
+    - purple-monkey-banana
 spec:
   type: documentation
   lifecycle: experimental
