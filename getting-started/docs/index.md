@@ -56,7 +56,13 @@ The HTML specification is maintained by the W3C.
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
 
-### Find APIs and datasets 
+## Level 2 heading
+
+Some content
+
+### Level 3 heading
+
+Some more detailed content
 
 #### Level 4 heading
 
@@ -65,6 +71,8 @@ Going deep
 ##### Level 5 heading
 
 Going deeper
+
+### Find APIs and datasets 
 
 Use DevHub search or explore the catalogues to discover: 
 
