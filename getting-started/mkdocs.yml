@@ -32,14 +32,14 @@ markdown_extensions:
     - toc:
         permalink: 🔗
         toc_depth: 2-3
-    # - abbr
-    # - attr_list
-    # - pymdownx.snippets
-extra_css:
-    # - stylesheets/extra.css
-    - stylesheets/tooltips.css
+#     - abbr
+#     - attr_list
+#     - pymdownx.snippets
+# extra_css:
+#     - stylesheets/extra.css
+#     - stylesheets/tooltips.css
 
-# theme:
-#     name: material
-#     features:
-#         - content.tooltips
+theme:
+    name: material
+    features:
+        - content.tooltips
