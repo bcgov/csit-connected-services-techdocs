@@ -27,19 +27,13 @@ If you are building or managing a digital service, explore available APIs and da
 
 ### Tooltips
 
-<span class="has-tooltip">
-  hover me
-  <span class="tooltip-content">This is a richer tooltip</span>
-</span>
+#### Recommended basic syntax
 
-Using an <span class="has-tooltip">
-  API Gateway
-  <span class="tooltip-content">
-    <!-- Handles routing, auth, rate limiting, etc. -->
-    An API Gateway is a service that acts as a single entry point for multiple APIs, managing requests, routing, security, and other operations, simplifying and centralizing API management.
-  </span>
-</span>
-provides a secure way to expose your API to the world.
+This is what is used in the <span title="API Program Services" style="border-bottom: 1px dotted;">APS</span> docs.
+
+#### Some other possible syntaxes
+
+A few other ways to create tooltips:
 
 [Hover me](https://example.com "I'm a tooltip!")
 
@@ -47,9 +41,7 @@ provides a secure way to expose your API to the world.
 
   [example]: https://example.com "I'm a tooltip!"
 
-Another one: <span title="I'm a tooltip!">Hover me addon</span>
-
-:material-information-outline:{ title="Important information" }
+Another one:
 
 The HTML specification is maintained by the W3C.
 
