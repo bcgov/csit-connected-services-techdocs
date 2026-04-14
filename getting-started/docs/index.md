@@ -32,12 +32,14 @@ If you are building or managing a digital service, explore available APIs and da
   <span class="tooltip-content">This is a richer tooltip</span>
 </span>
 
-<span class="has-tooltip">
+Using an <span class="has-tooltip">
   API Gateway
   <span class="tooltip-content">
-    Handles routing, auth, rate limiting, etc.
+    <!-- Handles routing, auth, rate limiting, etc. -->
+    An API Gateway is a service that acts as a single entry point for multiple APIs, managing requests, routing, security, and other operations, simplifying and centralizing API management.
   </span>
 </span>
+provides a secure way to expose your API to the world.
 
 [Hover me](https://example.com "I'm a tooltip!")
 

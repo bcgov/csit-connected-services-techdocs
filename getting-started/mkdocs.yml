@@ -4,14 +4,14 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
 edit_uri: edit/main/docs
 nav:
-    - How To Guides:
+    - index.md
+    - How To (Example Navigation Tree):
         - Getting Started:
             - The Basics:
                 - Day One:
                     - building-blocks.md
                 - Day Two:
                     - purpose-and-value.md
-    - index.md
     - purpose-and-value.md
     - building-blocks.md
     - authoritative-data-register.md
@@ -36,7 +36,7 @@ markdown_extensions:
     # - attr_list
     # - pymdownx.snippets
 extra_css:
-    - stylesheets/extra.css
+    # - stylesheets/extra.css
     - stylesheets/tooltips.css
 
 # theme:
