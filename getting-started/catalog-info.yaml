@@ -23,6 +23,9 @@ metadata:
     - security
     - governance
     - policy 
+    - support
+    - troubleshooting
+    - onboarding
 spec:
   type: documentation
   lifecycle: experimental
