@@ -14,6 +14,7 @@ nav:
     - governance-and-policy.md
     - roles-and-responsibilities.md
     - limits-and-constraints.md
+    - support.md
 
 plugins:
     - techdocs-core
