@@ -34,7 +34,7 @@ Seek support if:
 
 For support related to API platform services, onboarding, access, gateway setup, or technical issues, use the APS support guidance:
 
-[API Platform Services support](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/get-support/). 
+[API Platform Services support](/docs/default/component/aps-infra-platform-docs/how-to/get-support/)
 
 This is the primary source for current APS support channels and instructions.
 
@@ -82,7 +82,7 @@ When possible, include:
 - any error message or unexpected behaviour
 - the environment, if relevant
 
-Providing this information helps support teams route and respond more efficiently.
+Providing this information helps support teams direct requests and respond more efficiently.
 
 ### Related information
 
