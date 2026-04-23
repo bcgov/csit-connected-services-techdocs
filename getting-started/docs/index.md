@@ -68,12 +68,12 @@ Going deeper
 
 | Release Date | Release                                     |
 | ------------ | ------------------------------------------- |
-| 2026 Mar 31  | [Connected services building blocks](/getting-started/docs/building-blocks.md)  |
-| 2026 Feb 26  | [Limits and constraints](/getting-started/docs/limits-and-constraints.md)  |
+| 2026 Mar 31  | [Connected services building blocks](building-blocks.md)  |
+| 2026 Feb 26  | [Limits and constraints](limits-and-constraints.md)  |
 
 ### Image test
 
-![SDX Architecture](/getting-started/artifacts/SDX.svg)
+![SDX Architecture](../artifacts/SDX.svg)
 
 ### Find APIs and datasets 
 
