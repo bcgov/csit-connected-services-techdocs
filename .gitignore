@@ -1,3 +1,5 @@
 patcher.py
 test_patcher.py
 site/
+*/.venv/
+.venv/
