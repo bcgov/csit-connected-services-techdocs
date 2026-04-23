@@ -73,7 +73,9 @@ Going deeper
 
 ### Image test
 
-![SDX Architecture](../artifacts/SDX.svg)
+![SDX Architecture](artifacts/SDX.svg)
+
+![Test Image](artifacts/test-image.png)
 
 ### Find APIs and datasets 
 
