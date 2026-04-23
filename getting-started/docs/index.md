@@ -64,6 +64,17 @@ Going deep
 
 Going deeper
 
+### Table test
+
+| Release Date | Release                                     |
+| ------------ | ------------------------------------------- |
+| 2026 Mar 31  | [Connected services building blocks](/getting-started/docs/building-blocks.md)  |
+| 2026 Feb 26  | [Limits and constraints](/getting-started/docs/limits-and-constraints.md)  |
+
+### Image test
+
+![SDX Architecture](/getting-started/artifacts/SDX.svg)
+
 ### Find APIs and datasets 
 
 Use DevHub search or explore the catalogues to discover: 
