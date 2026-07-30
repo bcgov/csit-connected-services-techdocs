@@ -9,7 +9,7 @@ _Connected Services_ involves multiple roles across technical, program, and gove
 
 Clear roles and responsibilities are essential to ensure that data is published, accessed, maintained, and exchanged responsibly. 
 
-As Connected Services is implemented through its initial use case, role definitions and associated responsibilities will continue to be refined and published.Shape 
+As Connected Services is implemented through its initial use case, role definitions and associated responsibilities will continue to be refined and published. 
 
 ### Data providers (Suppliers) 
 

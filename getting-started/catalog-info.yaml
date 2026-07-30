@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: connected-services-getting-started-techdocs
-  title: Connected Services Overivew
+  title: Connected Services Overview
   description: The TechDocs for the Connected Services - Getting Started.
   annotations:
     github.com/project-slug: bcgov/csit-connected-services-getting-started-techdocs

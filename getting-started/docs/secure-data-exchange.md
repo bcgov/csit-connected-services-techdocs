@@ -18,7 +18,7 @@ This includes encryption, authentication, and data integrity mechanisms that pro
 - **Governance and Compliance**  
 This includes auditing and logging functionality, policy enforcement, non-repudiation, and timestamping to support oversight and accountability. 
 
-Together, these components ensure that sensitive data exchanged through SDX maintains confidential, protected, and compliant with B.C.’s security and regulatory requirements. 
+Together, these components ensure that sensitive data exchanged through SDX remains confidential, protected, and compliant with B.C.’s security and regulatory requirements. 
 
 ### Who this is for 
 

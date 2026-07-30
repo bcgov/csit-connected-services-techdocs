@@ -23,15 +23,15 @@ of headings in your markdown files. Only use one H1 (`#` in Markdown) per file.
 
 ## Site navigation
 
-It is optional, but ***highly recommended*** that you create define the navigation structure for your documentation by creating a `nav` section in your [mkdocs.yml](mkdocs.yml) file. Without a `nav` section,  navigation for your documentation will be dynamically created when viewed within DevHub, but you won't have control over the order in which the pages show and the text will be generated based on the headings in the pages themselves.
+It is optional, but ***highly recommended*** that you define the navigation structure for your documentation by creating a `nav` section in your [mkdocs.yml](mkdocs.yml) file. Without a `nav` section,  navigation for your documentation will be dynamically created when viewed within DevHub, but you won't have control over the order in which the pages show and the text will be generated based on the headings in the pages themselves.
 
 Creating a `nav` section will allow you to completely control how the navigation for your documentation displays in DevHub, including the text that is shown, grouping pages in categories and sub-categories and including links to external content.
 
-We've includes some example `mkdocs.yml` files below which demonstrate how to configure the `nav` section. You may also wish to consult the [MkDocs documentation](https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation) for detailed information about navigation and other aspects of mkdocs.yml.
+We've included some example `mkdocs.yml` files below which demonstrate how to configure the `nav` section. You may also wish to consult the [MkDocs documentation](https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation) for detailed information about navigation and other aspects of mkdocs.yml.
 
 ### `nav` with categories
 
-Below is an example of a `mkdocs.yml` file with a `nav` section. This `nav` section is structure to arrange the files in categories. In this case the categories are `Getting Started` and `Usage`.
+Below is an example of a `mkdocs.yml` file with a `nav` section. This `nav` section is structured to arrange the files in categories. In this case the categories are `Getting Started` and `Usage`.
 
 ```yaml
 site_name: My TechDocs
@@ -93,7 +93,7 @@ You will likely want to preview your documentation on your computer. Follow [the
 
 The [GitHub Action workflow file](.github/workflows/publish.yaml) can validate, build (produce browser-friendly HTML from Markdown) and publish your documentation to DevHub automatically.  Initially, it is set up just to validate and build your documentation. 
 
-The portion of the workflow file that publishes your documentation is commented out because it requires addition set up with the Developer Experience team. When you'd like to have your documentation published in DevHub, [contact the Developer Experience Team](mailto:developer.experience@gov.bc.ca) who will work with you to set things up. 
+The portion of the workflow file that publishes your documentation is commented out because it requires additional setup with the Developer Experience team. When you'd like to have your documentation published in DevHub, [contact the Developer Experience Team](mailto:developer.experience@gov.bc.ca) who will work with you to set things up. 
 
 ### The publishing workflow
 
@@ -106,7 +106,7 @@ The configuration provided in the [workflow file](.github/workflows/publish.yaml
 
 ## Getting help or reporting an issue
 
-To report bugs/issues/features requests, please email the Developer Experience team at [Developer.Experience@gov.bc.ca](mailto:Developer.Experience@gov.bc.ca)
+To report bugs/issues/feature requests, please email the Developer Experience team at [Developer.Experience@gov.bc.ca](mailto:Developer.Experience@gov.bc.ca)
 
 The full documentation for MkDocs (which is powering the DevHub TechDocs function) is at the [MkDocs website](https://www.mkdocs.org/user-guide/writing-your-docs/). Note that not all content on the site will be applicable to DevHub's use of MkDocs.
 
