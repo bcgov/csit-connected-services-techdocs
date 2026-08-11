@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: integration-toolkit-techdocs
+  title: Integration Toolkit Documentation
+  description: Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates.
+  annotations:
+    github.com/project-slug: bcgov/csit-connected-services-getting-started-techdocs
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/product_description: Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates.
+    bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
+    bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
+    backstage.io/source-template: template:default/docs-template
+  tags:
+    - integration-toolkit
+    - connected-services
+    - authoritative-data
+    - authoritative-data-register 
+    - eligibility
+    - eligibility-factor-verification 
+    - secure-data-exchange
+    - privacy
+    - security
+    - governance
+    - policy 
+    - support
+    - troubleshooting
+    - onboarding
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/databc-aps

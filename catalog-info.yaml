@@ -9,3 +9,4 @@ metadata:
 spec:
   targets:
     - ./getting-started/catalog-info.yaml
+    - ./integration-toolkit/catalog-info.yaml
