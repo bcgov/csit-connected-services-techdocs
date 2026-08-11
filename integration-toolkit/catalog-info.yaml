@@ -5,7 +5,7 @@ metadata:
   title: Integration Toolkit Documentation
   description: Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates.
   annotations:
-    github.com/project-slug: bcgov/csit-connected-services-getting-started-techdocs
+    github.com/project-slug: bcgov/csit-connected-services-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
     bcgovpubcode.gov.bc.ca/product_description: Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates.
