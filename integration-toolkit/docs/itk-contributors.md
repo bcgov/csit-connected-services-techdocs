@@ -7,6 +7,8 @@ This section introduces what's part of ITK, what each one contributes, and where
 to go for the details. This list is expected to grow as more products and
 services are added over time. If you're interested in finding out more, reach out.
 
+## Integrated products and services
+
 ### API Services Portal
 
 Brings APIs available across government. If you're looking to connect to or
