@@ -5,7 +5,7 @@ metadata:
   title: Connected Services Overview
   description: The TechDocs for the Connected Services - Getting Started.
   annotations:
-    github.com/project-slug: bcgov/csit-connected-services-techdocs
+    github.com/project-slug: bcgov/connected-services-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
     bcgovpubcode.gov.bc.ca/product_description: The TechDocs for Connected Services - Getting Started.

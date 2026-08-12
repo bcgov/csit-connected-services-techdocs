@@ -1,7 +1,7 @@
 site_name: "Getting Started with Connected Services"
 site_description: "Explore Connected Services, its building blocks, and trusted data exchange"
 docs_dir: "docs"
-repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
+repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/docs
 nav:
     - index.md
