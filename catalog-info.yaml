@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: connected-services-techdocs-location-temp-feature
+  name: connected-services-techdocs-location
   title: Connected Services TechDocs Location
   description: The Location for Connected Services TechDocs.
   tags:
