@@ -1,4 +1,4 @@
-[![Package Status](https://github.com/bcgov/csit-connected-services-techdocs/actions/workflows/publish.yaml/badge.svg)](https://github.com/bcgov/csit-connected-services-techdocs/actions/workflows/publish.yaml)
+[![Package Status](https://github.com/bcgov/connected-services-techdocs/actions/workflows/publish.yaml/badge.svg)](https://github.com/bcgov/connected-services-techdocs/actions/workflows/publish.yaml)
 
 
 # connected-services-techdocs

@@ -1,18 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: connected-services-getting-started-techdocs
-  title: Connected Services Overview
-  description: The TechDocs for the Connected Services - Getting Started.
+  name: integration-toolkit-techdocs
+  title: Integration Toolkit Documentation
+  description: Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates.
   annotations:
     github.com/project-slug: bcgov/connected-services-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
-    bcgovpubcode.gov.bc.ca/product_description: The TechDocs for Connected Services - Getting Started.
+    bcgovpubcode.gov.bc.ca/product_description: Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates.
     bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
     bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
     backstage.io/source-template: template:default/docs-template
   tags:
+    - integration-toolkit
     - connected-services
     - authoritative-data
     - authoritative-data-register 

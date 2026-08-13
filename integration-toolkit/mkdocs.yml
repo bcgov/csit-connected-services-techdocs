@@ -1,0 +1,16 @@
+site_name: "Integration Toolkit Documentation"
+site_description: "Learn what the Integration Toolkit is, the features it delivers, and read the latest milestone updates"
+docs_dir: "docs"
+repo_url: "https://github.com/bcgov/connected-services-techdocs"
+edit_uri: edit/main/integration-toolkit/docs/
+nav:
+    - index.md
+    - itk-contributors.md
+    - finding-and-using-itk.md
+    - milestone-updates.md
+    - support.md
+
+plugins:
+  - techdocs-core  
+markdown_extensions:
+    - md_in_html
