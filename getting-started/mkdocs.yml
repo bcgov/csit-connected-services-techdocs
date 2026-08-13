@@ -18,7 +18,6 @@ nav:
 
 plugins:
   - techdocs-core
-  - techdocs-git-audit
   
 markdown_extensions:
     - md_in_html
