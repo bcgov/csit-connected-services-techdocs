@@ -1,68 +1,74 @@
 ---
-title: Secure Data Exchange (SDX) 
+title: Secure Data Exchange (SDX)
 ---
 # Getting started with Connected Services
 
-## Secure Data Exchange (SDX) 
+## Secure Data Exchange (SDX)
 
-### What it is 
+### What it is
 
-_Secure Data Exchange_ (SDX) serves as the secure exchange layer within Connected Services, enabling the controlled and protected transfer of data between participating organizations. 
+_Secure Data Exchange_ (SDX) helps organizations safely share sensitive information with each other.
 
-The exchange operates behind the scenes to ensure that when a citizen’s information is sent or received, the data remains protected throughout the process - from initial exchange to storage. 
+It protects information as it moves from one organization to another and ensures that only approved systems can send and receive it.
 
-SDX is built around two foundational components: 
+SDX protects exchanges by:
 
-- **Security Controls**  
-This includes encryption, authentication, and data integrity mechanisms that protect information in transit and verify participating systems. 
-- **Governance and Compliance**  
-This includes auditing and logging functionality, policy enforcement, non-repudiation, and timestamping to support oversight and accountability. 
+- Encrypting information while it is being exchanged
+- Confirming that participating systems are approved
+- Checking that information has not been changed in transit
+- Applying rules that control access and permitted actions
+- Keeping records of exchanges for auditing and review
+- Recording who participated in an exchange when it happened
 
-Together, these components ensure that sensitive data exchanged through SDX remains confidential, protected, and compliant with B.C.’s security and regulatory requirements. 
+Together, these controls help organizations protect sensitive information and support B.C.'s security, privacy, and regulatory requirements.
 
-### Who this is for 
+### Who should use SDX
 
-SDX is intended for any organization participating in Connected Services that needs to securely exchange sensitive data across organizational boundaries. 
+SDX is for organizations participating in Connected Services that need to share sensitive information with other organizations.
 
-This includes organizations such as LTSA and ICBC, as well as other ministries and partners. 
+Participants may include B.C. government ministries and partner organizations such as LTSA and ICBC.
 
-Participating organizations may act as data providers, data consumers, or both. 
+An organization can:
 
-### When to use Secure Data Exchange 
+- Provide information or services to other approved organizations
+- Consume information or services provided by another organization
+- Do both
 
-SDX is required when sensitive data (e.g., personal, financial, or health-related information) is being shared across organizational boundaries. 
+### When you should use SDX
 
-Use SDX when: 
+Use SDX when information needs to be shared between organizations and the exchange needs stronger security, access control, or accountability.
 
-- Data exchange requires enhanced security controls due to sensitivity of the data 
-- Policy-based access enforcement is needed 
-- Auditability and non-repudiation are required 
+SDX may be appropriate when:
 
-SDX is not required for public or non-sensitive data that does not require cross-boundary security controls. 
+- Personal, financial, or other sensitive information is being shared
+- Access must be limited to approved organizations or systems
+- The exchange must be logged or available for audit
+- There must be a reliable record of who participated in the exchange
 
-### How it works (high-level) 
+SDX is generally not needed for public or non-sensitive information that does not require these additional controls.
 
-SDX operates through an onboarding and registration process within the SDX ecosystem. 
+### How it works
 
-At a high level: 
+Organizations complete the SDX onboarding process before exchanging information. Onboarding sets up the organization, its systems, roles, and secure connections.
 
-1. The SDX Operator registers their organization. 
-2. An Organization Administrator assigns the necessary System Owner role(s). 
-3. The System Owner(s) register(s) services and subsystems and is able to browse the service catalogue. 
-4. An OpenAPI Specification (OAS) file is submitted for API registration. This spec must be in YAML format.  
-5. Once onboarded, an Edge Server is then provisioned. 
-6. Secure connections are established between participating systems within the SDX ecosystem. 
+Once onboarded:
 
-All exchanges are authenticated, authorized, and logged automatically. 
- 
-Detailed onboarding steps and technical configuration guidance are available in [SDX Onboarding – TechDocs](/docs/default/component/aps-infra-platform-docs/how-to/sdx-onboarding). <span style="color:red; font-weight:bold">TODO Unstable link!</span> 
+- Providers make services available to approved consumers. API providers register their APIs using an OpenAPI Specification (OAS).
+- Consumers request access to the services they need.
+- SDX applies security, access, and logging controls to exchanges between participating systems.
 
-### Relationship to privacy and security 
+SDX Edge Servers provide the secure connection used by participating organizations.
 
-SDX provides the technical implementation of the privacy and security controls described in Privacy and Security. 
+For detailed setup instructions, see [SDX onboarding documentation](/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/).
 
-Review Privacy and security for information on governance alignment and accountability structures. 
+### Privacy and security responsibilities
 
-### Where to go next 
+SDX provides technical controls that help organizations meet privacy and security requirements.
 
-- [SDX Onboarding – TechDocs](/docs/default/component/aps-infra-platform-docs/how-to/sdx-onboarding) <span style="color:red; font-weight:bold">TODO Unstable link!</span> 
+Using SDX does not replace an organization's responsibility to meet its own privacy, security, governance, and data management requirements.
+
+See [Privacy and security](privacy-and-security.md) for more information about organizational responsibilities and accountability.
+
+### Where to go next
+
+- [SDX onboarding documentation](/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/)
