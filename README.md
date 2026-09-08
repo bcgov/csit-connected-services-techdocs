@@ -101,7 +101,7 @@ DevHub Dev and Test share the S3 `dev/` prefix. DevHub Prod reads from the bucke
 
 | Trigger | Projects | Publishing destination |
 | --- | --- | --- |
-| Push to `dev` or `test` | All | S3 `dev/` (DevHub Dev and Test) |
+| Push to `test` | All | S3 `dev/` (DevHub Dev and Test) |
 | Push to `main` | All | S3 bucket root and `dev/` |
 | Pull request targeting `dev`, `test`, or `main` | All | Build and validate only; no publishing or S3 credentials |
 | Manual run | All or one selected project | Selected destination |

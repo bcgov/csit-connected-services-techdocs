@@ -25,7 +25,7 @@ on:
           - integration-toolkit
           - secure-data-exchange
   push:
-    branches: [dev, test, main]
+    branches: [test, main]
     paths:
       - "catalog-info.yaml"
       - "**/catalog-info.yaml"
