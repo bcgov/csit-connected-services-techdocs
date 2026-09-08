@@ -1,0 +1,13 @@
+site_name: "Secure Data Exchange Documentation"
+site_description: "Documentation for Secure Data Exchange (SDX). Coming soon."
+docs_dir: "docs"
+repo_url: "https://github.com/bcgov/connected-services-techdocs"
+edit_uri: edit/main/secure-data-exchange/docs/
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - md_in_html
