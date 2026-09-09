@@ -95,15 +95,26 @@ The [publishing workflow](.github/workflows/publish.yaml) builds each TechDocs p
 
 Publishing requires access to these GitHub Actions secrets: `TECHDOCS_S3_BUCKET_NAME`, `TECHDOCS_AWS_ACCESS_KEY_ID`, `TECHDOCS_AWS_SECRET_ACCESS_KEY`, `TECHDOCS_AWS_REGION`, and `TECHDOCS_AWS_ENDPOINT`. [Contact the Developer Experience Team](mailto:developer.experience@gov.bc.ca) to arrange access and register the root catalog in each DevHub environment.
 
+### Branches and review flow
+
+The `dev` branch is reserved for the APS DevHub POC environment, primarily for custom development such as TechDocs plugins. Point `dev` at the commit needed for that environment. Updating `dev` does not automatically publish to S3; the POC's use of that branch is configured separately.
+
+For documentation updates and releases:
+
+1. Create a feature branch from `test`.
+2. Make the changes and open a pull request targeting `test`. The PR builds and validates all TechDocs projects without publishing.
+3. After approval, merge the feature branch into `test`. Relevant changes automatically publish all projects to DevX DevHub Dev and Test.
+4. When ready for a production release, open a pull request from `test` into `main`. After approval and merge, relevant changes automatically publish all projects to DevX DevHub Prod and non-production.
+
 ### The publishing workflow
 
-DevHub Dev and Test share the S3 `dev/` prefix. DevHub Prod reads from the bucket root. Their catalog registration lists remain separate.
+DevX DevHub Dev and Test share the S3 `dev/` prefix. DevX DevHub Prod reads from the bucket root. Their catalog registration lists remain separate. The publishing destination named `dev` is independent of the Git branch named `dev` and does not configure the APS DevHub POC.
 
 | Trigger | Projects | Publishing destination |
 | --- | --- | --- |
 | Push to `test` | All | S3 `dev/` (DevHub Dev and Test) |
 | Push to `main` | All | S3 bucket root and `dev/` |
-| Pull request targeting `dev`, `test`, or `main` | All | Build and validate only; no publishing or S3 credentials |
+| Pull request targeting `test` or `main` | All | Build and validate only; no publishing or S3 credentials |
 | Manual run | All or one selected project | Selected destination |
 
 Automatic runs are triggered by changes to documentation, catalog files, MkDocs configuration, or the publishing workflow/staging script. The shared DevHub publisher always uploads to `dev/` when publishing is enabled; production publishing additionally uploads the same build to the bucket root.

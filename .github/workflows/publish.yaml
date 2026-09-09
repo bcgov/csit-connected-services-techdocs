@@ -36,7 +36,7 @@ on:
       - ".github/workflows/publish.yaml"
       - ".github/scripts/stage-techdocs.sh"
   pull_request:
-    branches: [dev, test, main]
+    branches: [test, main]
     paths:
       - "catalog-info.yaml"
       - "**/catalog-info.yaml"
