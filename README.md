@@ -91,18 +91,48 @@ You will likely want to preview your documentation on your computer. Follow [the
 
 ## Building and publishing your documentation
 
-The [GitHub Action workflow file](.github/workflows/publish.yaml) can validate, build (produce browser-friendly HTML from Markdown) and publish your documentation to DevHub automatically.  Initially, it is set up just to validate and build your documentation. 
+The [publishing workflow](.github/workflows/publish.yaml) builds each TechDocs project in a separate job: `getting-started`, `integration-toolkit`, and `secure-data-exchange`. Each project is published under its own catalog entity name.
 
-The portion of the workflow file that publishes your documentation is commented out because it requires additional setup with the Developer Experience team. When you'd like to have your documentation published in DevHub, [contact the Developer Experience Team](mailto:developer.experience@gov.bc.ca) who will work with you to set things up. 
+Publishing requires access to these GitHub Actions secrets: `TECHDOCS_S3_BUCKET_NAME`, `TECHDOCS_AWS_ACCESS_KEY_ID`, `TECHDOCS_AWS_SECRET_ACCESS_KEY`, `TECHDOCS_AWS_REGION`, and `TECHDOCS_AWS_ENDPOINT`. [Contact the Developer Experience Team](mailto:developer.experience@gov.bc.ca) to arrange access and register the root catalog in each DevHub environment.
+
+### Branches and review flow
+
+The `dev` branch is reserved for the APS DevHub POC environment, primarily for custom development such as TechDocs plugins. Point `dev` at the commit needed for that environment. Updating `dev` does not automatically publish to S3; the POC's use of that branch is configured separately.
+
+For documentation updates and releases:
+
+1. Create a feature branch from `test`.
+2. Make the changes and open a pull request targeting `test`. The PR builds and validates all TechDocs projects without publishing.
+3. After approval, merge the feature branch into `test`. Relevant changes automatically publish all projects to DevX DevHub Dev and Test.
+4. When ready for a production release, open a pull request from `test` into `main`. After approval and merge, relevant changes automatically publish all projects to DevX DevHub Prod and non-production.
 
 ### The publishing workflow
 
-DevHub has a "preview" environment and a production environment, and once the Developer Experience team has you set up, and you've uncommented the publishing sections in the [workflow file](.github/workflows/publish.yaml) you'll be in control of how and when your content is published to each. You'll be able to control this by modifying the [workflow file](.github/workflows/publish.yaml) to suit your process and team.
+DevX DevHub Dev and Test share the S3 `dev/` prefix. DevX DevHub Prod reads from the bucket root. Their catalog registration lists remain separate. The publishing destination named `dev` is independent of the Git branch named `dev` and does not configure the APS DevHub POC.
 
-The configuration provided in the [workflow file](.github/workflows/publish.yaml) behaves as follows: 
+| Trigger | Projects | Publishing destination |
+| --- | --- | --- |
+| Push to `test` | All | S3 `dev/` (DevHub Dev and Test) |
+| Push to `main` | All | S3 bucket root and `dev/` |
+| Pull request targeting `test` or `main` | All | Build and validate only; no publishing or S3 credentials |
+| Manual run | All or one selected project | Selected destination |
 
-* A pull request to your repo will build and publish the code to the [DevHub preview](https://dev.developer.gov.bc.ca) site. This is a development site where you can preview your changes.
-* A push to the `main` branch in your repository (a direct push or a PR merge) will publish the code to the [production DevHub website](http://developer.gov.bc.ca).
+Automatic runs are triggered by changes to documentation, catalog files, MkDocs configuration, or the publishing workflow/staging script. The shared DevHub publisher always uploads to `dev/` when publishing is enabled; production publishing additionally uploads the same build to the bucket root.
+
+### Publishing on demand
+
+1. Open **Actions → Build and publish TechDocs → Run workflow**.
+2. Choose the source branch using GitHub's **Use workflow from** selector. The selected branch must contain this workflow and the project being published.
+3. Select `dev` for DevHub Dev/Test, or `prod` for the production bucket root plus `dev/`. The manual destination takes precedence over the branch: selecting `dev` on `main` publishes only to `dev/`.
+4. Select `all` or one project, then run the workflow. GitHub's choice input supports one selection; repeat the run to publish another individual project.
+
+GitHub exposes manual dispatch once this workflow is present on the repository's default branch.
+
+### Adding another TechDocs project
+
+Add the project's catalog to the root `catalog-info.yaml`, then update the workflow's project dropdown and matrix list, and the allowed project names and catalog cleanup paths in `.github/scripts/stage-techdocs.sh`.
+
+The staging script copies one project to the root of a disposable Actions checkout and removes nested catalogs so the shared publisher finds exactly one entity. Do not run that script directly in your working checkout.
 
 ## Getting help or reporting an issue
 
@@ -120,4 +150,3 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 © 2024 Province of British Columbia
 
 Refer to the [LICENSE](LICENSE.md) file for more information.
-

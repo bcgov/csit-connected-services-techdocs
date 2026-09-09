@@ -10,3 +10,4 @@ spec:
   targets:
     - ./getting-started/catalog-info.yaml
     - ./integration-toolkit/catalog-info.yaml
+    - ./secure-data-exchange/catalog-info.yaml
